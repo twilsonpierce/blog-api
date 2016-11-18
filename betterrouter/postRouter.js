@@ -112,12 +112,11 @@ const updatePost = (req, res) =>{
 
 //USING THE GET METHOD ON THE ROUTER TO RETRIEVE THE FOLLOWING DATA 
 
-//USING THE POST METHOD ON THE ROUTER TO POST THE FOLLOWING DATA 
-
 router.route("/")
 	.get(getPost)
 	.post(postIt)
-	
+
+//USING THE POST METHOD ON THE ROUTER TO POST THE FOLLOWING DATA 
 
 router.route("/post-with-authors")
 	.get(getPostWithAuthor)
